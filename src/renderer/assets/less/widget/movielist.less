@@ -1,0 +1,102 @@
+.category {
+    padding: 20px;
+}
+.do-collect{
+    padding-left: 10px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    .clear-collect{
+        font-size: 15px;
+        padding: 2px 10px;
+        background-color: #3498DB;
+        color: #fff;
+        border-radius: 4px;
+    }
+}
+.movie-item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .breadcrumb-trail {
+        width: 100%;
+        padding-left: 10px;
+        font-size: 15px;
+        a {
+            line-height: 30px;
+            padding: 4px 2px;
+        }
+    }
+    .movie-item {
+        width: 160px;
+        height: 260px;
+        padding: 10px;
+        margin-bottom: 6px;
+        margin-right: 5px;
+        .movie-img {
+            display: block;
+            position: relative;
+            &:hover {
+                .movie-mask {
+                    background-color: rgba(0, 0, 0, 0.4);
+                    i {
+                        color: #fff;
+                    }
+                }
+            }
+            img {
+                width: 140px;
+                height: 190px;
+            }
+            .movie-mask {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 140px;
+                height: 190px;
+                background-color: transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i {
+                    font-size: 40px;
+                    color: transparent;
+                }
+            }
+            .sign-source{
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-size: 12px;
+                padding: 5px;
+                border-radius: 0 2px 2px 0;
+                &.sign-online{
+                    background-color: #3498DB;
+                    color: #fff;
+                }
+                &.sign-download{
+                    background-color: #F90336;
+                    color: #fff;
+                }
+            }
+        }
+        .movie-name {
+            display: block;
+            width: 100%;
+            font-size: 14px;
+            line-height: 30px;
+            margin-top: 6px;
+        }
+        .movie-actors {
+            font-size: 12px;
+            color: #999999;
+        }
+    }
+}
+
+.paging {
+    text-align: center;
+    margin-top: 20px;
+}

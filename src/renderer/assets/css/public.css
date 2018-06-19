@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+a,
+input {
+  color: #333333
+}
+
+body * {
+  cursor: default;
+}
+
+.container {
+  padding-bottom: 40px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.text-ellip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-ellip2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.text-ellip3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+body * {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
