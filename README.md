@@ -11,4 +11,4 @@
 
 # 官方永久地址
 最新下载地址：https://vip.lusir029.com/<br/>
-<font color="red">（如果官网地址被封，在此可以找到最新可用网址）</font><br/>
+<font color=#ff0000>（如果官网地址被封，在此可以找到最新可用网址）</font><br/>
