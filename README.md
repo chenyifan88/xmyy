@@ -1,25 +1,13 @@
-# electron-vue-simple
+# 官方群加入方式
 
-> An electron-vue project
+先下载安装蚂蚁加速器: https://b.antss.me/
+然后任选一条国外线路连接上之后，下载telegram
+苹果下载：https://apps.apple.com/us/app/telegram-messenger/id686449807
+安卓下载：https://telegram.cn.uptodown.com/android
+安装telegram成功后，访问：https://t.me/LuSirPro
+即可成功入群
 
-#### Build Setup
+使用telegram时需使用蚂蚁加速器
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:9080
-npm run dev
-
-# build electron application for production
-npm run build
-
-
-# lint all JS/Vue component files in `src/`
-npm run lint
-
-```
-
----
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[7c4e3e9](https://github.com/SimulatedGREG/electron-vue/tree/7c4e3e90a772bd4c27d2dd4790f61f09bae0fcef) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+# 官方永久地址（如果官网地址被封，在此可以找到最新可用网址）
+最新下载地址：https://vip.lusir029.com/
