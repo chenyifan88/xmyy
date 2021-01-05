@@ -54,7 +54,7 @@
     }
   },
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.1",
     "dplayer": "^1.22.2",
     "element-ui": "^2.3.9",
